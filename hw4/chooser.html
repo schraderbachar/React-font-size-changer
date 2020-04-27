@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Font Chooser</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="fontChooser.js" type="text/jsx"></script>
+</head>
+
+<body>
+
+    Here goes...
+
+    <div id='container'></div>
+
+    <script type="text/jsx">
+
+ReactDOM.render(
+  <div>
+    <FontChooser min='4' max='40' size='16' text='Fun with React!' bold='false'/>
+   </div>,
+document.getElementById('container'));
+
+    </script>
+
+    ... done?
+</body>
+
+</html>
